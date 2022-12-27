@@ -6,12 +6,12 @@
 }
 .container-grid {
     background-color:#3C3C3C;  
-    width: 1200px;
+    width: 1000px;
     margin:auto; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30px;
+    height: 40px;
 }
 header{
     background-color:#3C3C3C;    
@@ -19,7 +19,7 @@ height: 40px;
 }
 
 .menu{
-    width: 900px;
+    width: 720px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -38,14 +38,55 @@ height: 40px;
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
-}
+    }
 
-.texto-banner{
-    color:rgb(239, 233, 233)
+    .texto-banner {
+        width: 495;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-family: 'PT Serif', serif;
+        font-size: 25;
+        background-color:#0b0b0b;
+        color: rgb(61, 253, 13);
+        text-decoration: none;
+    }
+
+
+.texto-banner h1{
+    font-size: 75px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+
+      
 }
+/*.texto-banner a {
+    background-color: #c31616;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px; 
+}*/
+
+/*.texto-banner p{
+    margin-bottom: 50px;
+}*/
+
+
 .posicao-texto{
-    justify-content: flex-end;
+       justify-content: flex-start;
+  
 }
-.posicao-texto{
-    justify-content: flex-end;
+.secao-jogos{
+    background-color: black;
+    display: flex;
+    justify-content: center ;
+
+ 
+}
+.secao-institucional{
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    justify-content: center ;
+
 }
