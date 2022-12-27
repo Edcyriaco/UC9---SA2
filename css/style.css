@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container-grid {
+    background-color:#3C3C3C;  
+    width: 1200px;
+    margin:auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+header{
+    background-color:#3C3C3C;    
+height: 40px;
+}
+
+.menu{
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+}
+
+.banner{
+    background-color: #3C3C3C;
+    background-image:url(../img/Game\ mania\ 2.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-banner{
+    color:rgb(239, 233, 233)
+}
+.posicao-texto{
+    justify-content: flex-end;
+}
+.posicao-texto{
+    justify-content: flex-end;
+}
