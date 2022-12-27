@@ -1,64 +1,67 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
+
 .container-grid {
-    background-color:#3C3C3C;  
+    background-color: #3C3C3C;
     width: 1000px;
-    margin:auto; 
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 40px;
 }
-header{
-    background-color:#3C3C3C;    
-height: 40px;
+
+header {
+    background-color: #3C3C3C;
+    height: 40px;
 }
 
-.menu{
+.menu {
     width: 720px;
     display: flex;
     justify-content: space-evenly;
 }
 
 
-.menu a{
+.menu a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'PT Serif', serif;
 }
 
-.banner{
+.banner {
     background-color: #3C3C3C;
-    background-image:url(../img/Game\ mania\ 2.png);
+    background-image: url(../img/Game\ mania\ 2.png);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
-    }
+}
 
-    .texto-banner {
-        width: 495;
-        color: rgb(0, 0, 0);
-        text-align: center;
-        font-family: 'PT Serif', serif;
-        font-size: 25;
-        background-color:#0b0b0b;
-        color: rgb(61, 253, 13);
-        text-decoration: none;
-    }
+.texto-banner {
+    width: 495;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size: 25;
+    background-color: #0b0b0b;
+    color: rgb(61, 253, 13);
+    text-decoration: none;
+}
 
 
-.texto-banner h1{
+.texto-banner h1 {
     font-size: 75px;
     font-weight: bold;
     font-family: 'PT Serif', serif;
 
-      
+
 }
+
 /*.texto-banner a {
     background-color: #c31616;
     color: white;
@@ -73,54 +76,105 @@ height: 40px;
 }*/
 
 
-.posicao-texto{
-       justify-content: flex-start;
-  
+.posicao-texto {
+    justify-content: flex-start;
+
 }
-.secao-jogos{
+
+.secao-jogos {
     background-color: black;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
 
- 
+
 }
-.secao-institucional{
+
+.secao-institucional {
     background-color: rgb(12, 12, 12);
     display: flex;
-    justify-content: center ;
+    justify-content: center;
 
 }
-.jogos img{
+
+.jogos img {
     width: 400px;
 }
-.posicionamento-header{
+
+.posicionamento-header {
     position: relative;
 }
-@media screen and ( max-width: 1200px) {
-    .container-grid{
+
+footer {
+    background-color: #0b0b0b;
+}
+
+.rodape {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    color: #fff;
+}
+
+.links h2 {
+    font-size: 24px;
+}
+
+.links a {
+    font-size: 14px;
+}
+
+.links-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+
+}
+
+.logo-rodape {
+    width: 300px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container-grid {
         width: 90%;
     }
-    .menu{
+
+    .menu {
         font-size: 16px;
     }
-    .barras{
+
+    .barras {
         width: 30px;
         display: none;
     }
-    .logo{
+
+    .logo {
         width: 200px;
     }
+    .botao-cadastrar{
+        width: 156px;
+        color: #fff;
+        background-color: #8326ef;
+        border: none;
+        font-size: 18px;
+    }
 }
-@media screen and ( max-width: 768px) {
-    h1{
-      color: blue;
+
+@media screen and (max-width: 768px) {
+    h1 {
+        color: blue;
     }
-    .barras{
+
+    .barras {
         width: 30px;
-        display:inline-block;
+        display: inline-block;
     }
-    
-    .menu{
+
+    .menu {
         display: none;
         flex-direction: column;
         width: 200px;
@@ -129,9 +183,19 @@ height: 40px;
         top: 0;
         right: 0;
         background-color: black;
-        }
-        .menu a{
-            text-align:center ;
-            padding: 15px;
-        }
+    }
+
+   
+    .sociais input[type=email]::placeholder{
+        color: #b8b3b3;
+        font-weight: bold;
+    }
+    .botao-cadastrar{
+        width: 156px;
+        color: #fff;
+        background-color: #8326ef;
+        border: none;
+        font-size: 18px;
+    }
+    
 }

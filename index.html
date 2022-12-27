@@ -2,78 +2,100 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Home - Game mania</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+  <meta charset="UTF-8">
+  <title>Home - Game mania</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 </head>
 
-<body>
+<body onload="mostarpopup()">
   <center>
     <header>
       <div class="container-grid posicionamento-header ">
         <div>
-        <a href=""><img class="logo" src="img/logo.png" alt="Logo do game mania col" aling:left></a>
-       
-      </div> 
-      <a href="#" onclick="mostarMenu()" ><img class="barras" src="img/bars-solid.svg" alt="menu de barras" ></a>
-          <nav id="menu" class="menu">
-       <a href="">Baixe nosso APP</a>
+          <a href=""><img class="logo" src="img/logo.png" alt="Logo do game mania col" aling:left></a>
 
-       <a href="">Ofertas do dia</a>
+        </div>
+        <a href="#" onclick="mostarMenu()"><img class="barras" src="img/bars-solid.svg" alt="menu de barras"></a>
+        <nav id="menu" class="menu">
+          <a href="">Baixe nosso APP</a>
 
-       <a href="">Cliente VIP</a>
+          <a href="">Ofertas do dia</a>
 
-       <a href="">Mais Vendidos</a>
+          <a href="">Cliente VIP</a>
 
-       <a href="">Atendimento ao Cliente</a>
+          <a href="">Mais Vendidos</a>
 
-       <a href="">Política de trocas e devoluções</a>
-      </nav>
-    </div>
+          <a href="">Atendimento ao Cliente</a>
+
+          <a href="">Política de trocas e devoluções</a>
+        </nav>
+      </div>
     </header>
     <div class="banner">
-     <div class="texto-banner">
-      <font size ="5"
-          <h1  ></h1>
-<p>Aqui você encontra a maior variedade de jogos e acessórios para sua jogatina  </p>
-        </div>
-    </div> 
-    <div class="texto-banner"> 
-    <a>JOGOS 30%OFF</a>
-    <section class="secao-jogos">
-      <div class="jogos">
-      <a hreg=""><img src="img/pk.png" alt=" logo pokemon"></a>
-      <a hreg=""><img src="img/MW.png" alt=" Modern W"></a>
-      <a hreg=""><img src="img/cold.png" alt="call of du"></a>
-      <a hreg=""><img src="img/battle.png" alt="Battlefield"></a>
+      <div class="texto-banner">
+        <font size="5" <h1>
+          </h1>
+          <p>Aqui você encontra a maior variedade de jogos e acessórios para sua jogatina </p>
       </div>
-    </section> 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </div>
+    <div class="texto-banner">
+      <a>JOGOS 30%OFF</a>
+      <section class="secao-jogos">
+        <div class="jogos">
+          <a hreg=""><img src="img/pk.png" alt=" logo pokemon"></a>
+          <a hreg=""><img src="img/MW.png" alt=" Modern W"></a>
+          <a hreg=""><img src="img/cold.png" alt="call of du"></a>
+          <a hreg=""><img src="img/battle.png" alt="Battlefield"></a>
+        </div>
+      </section>
+      <script src="js/script.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
     </div>
-  </div>
-</div>
-<script>
-  let menu = document.getElementById("menu");
+    </div>
+    </div>
+    <div class="links">
+      <h2>Cadastre seu E-mail </h2>
 
-   function mostarMenu(){
-  if (menu.style.display != "flex") {
-    menu.style.display = "flex"
-  }else{
-    menu.style.display ="none"
-  }
-}
-  
-</script>
-<div class="secao-institucional">
-  <a hreg=""><img src="img/grup info.png" alt=" logo pokemon"></a>
+      <form action="">
+        <input id="campo-email" type="email" placeholder="Insira seu E-mail aqui" required>
+        <button onclick="enviarEmail()" >Cadastrar</button>
+
+      </form>
+
+    </div>
+    </div>
+    <script>
+      let menu = document.getElementById("menu");
+
+      function mostarMenu() {
+        if (menu.style.display != "flex") {
+          menu.style.display = "flex"
+        } else {
+          menu.style.display = "none"
+        }
+      }
+
+    </script>
+    <div class="secao-institucional">
+      <a hreg=""><img src="img/grup info.png" alt=" logo pokemon"></a>
 </body>
 
 </html>
