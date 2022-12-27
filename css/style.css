@@ -90,3 +90,48 @@ height: 40px;
     justify-content: center ;
 
 }
+.jogos img{
+    width: 400px;
+}
+.posicionamento-header{
+    position: relative;
+}
+@media screen and ( max-width: 1200px) {
+    .container-grid{
+        width: 90%;
+    }
+    .menu{
+        font-size: 16px;
+    }
+    .barras{
+        width: 30px;
+        display: none;
+    }
+    .logo{
+        width: 200px;
+    }
+}
+@media screen and ( max-width: 768px) {
+    h1{
+      color: blue;
+    }
+    .barras{
+        width: 30px;
+        display:inline-block;
+    }
+    
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: black;
+        }
+        .menu a{
+            text-align:center ;
+            padding: 15px;
+        }
+}
