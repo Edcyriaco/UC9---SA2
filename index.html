@@ -13,7 +13,6 @@
 
 </head>
 
-<body onload="mostarpopup()">
   <center>
     <header>
       <div class="container-grid posicionamento-header ">
@@ -21,7 +20,7 @@
           <a href=""><img class="logo" src="img/logo.png" alt="Logo do game mania col" aling:left></a>
 
         </div>
-        <a href="#" onclick="mostarMenu()"><img class="barras" src="img/bars-solid.svg" alt="menu de barras"></a>
+        <a href="#" id="barras"><img class="barras" src="img/bars-solid.svg" alt="menu de barras"></a>
         <nav id="menu" class="menu">
           <a href="">Baixe nosso APP</a>
 
@@ -37,14 +36,22 @@
         </nav>
       </div>
     </header>
-    <div class="banner">
+    <div id="carrosel" class="carrosel">
+      <img src="img/Game mania 2.png" alt="banner game mania">
+      <img src="img/banner_cs.png" alt="banner cs">
+      <img src="img/banner_lol.png" alt="banner lol">
+      <img src="img/banner_pilotos.png" alt="banner pilot">
+
+
+    </div>
+    <!--<div class="banner">
       <div class="texto-banner">
         <font size="5" <h1>
           </h1>
           <p>Aqui você encontra a maior variedade de jogos e acessórios para sua jogatina </p>
       </div>
     </div>
-    <div class="texto-banner">
+    <div class="texto-banner">-->
       <a>JOGOS 30%OFF</a>
       <section class="secao-jogos">
         <div class="jogos">
@@ -54,6 +61,7 @@
           <a hreg=""><img src="img/battle.png" alt="Battlefield"></a>
         </div>
       </section>
+      <script src="js/jquery-3.6.3.js"></script>
       <script src="js/script.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

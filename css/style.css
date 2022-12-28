@@ -42,6 +42,15 @@ header {
     background-size: cover;
 }
 
+#carrosel img{
+    display: none;
+}
+
+.banner-ativo{
+display: flex;
+}
+
+
 .texto-banner {
     width: 495;
     color: rgb(0, 0, 0);
@@ -183,6 +192,9 @@ footer {
         top: 0;
         right: 0;
         background-color: black;
+    }
+    .menu-ativo{
+        display: flex;
     }
 
    
